@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+printf("this program is regarding a food menu\n");
+int choice;
+printf("1 for cost of pizza is 239 rupees\n");
+printf("2 for cost of Burger is 129 rupees\n");
+printf("3 for cost of pasta is 179 rupees\n");
+printf("4 for cost of French Fries is 99 rupees\n");
+printf("5 for cost of Sandwich is 149 rupees\n");
+scanf("%d",&choice);
+switch(choice)
+{
+case 1:printf("Food Item is Pizza\n");
+       printf("cost of the food item is 239 Rs");
+       break;
+case 2:printf("Food Item is Burger\n");
+       printf("cost of the food item is 129 Rs");
+       break;
+case 3:printf("Food Item is Pasta\n");
+       printf("cost of the food item is 179 Rs");
+       break;
+case 4:printf("Food Item is French Fries\n");
+       printf("cost of the food item is 99 Rs");
+       break;       
+case 5:printf("Food Item is Sandwich\n");
+       printf("cost of the food item is 149 Rs");
+       break;
+}
+}
